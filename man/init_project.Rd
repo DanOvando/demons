@@ -15,4 +15,3 @@ a bunch of folders
 \examples{
 init_project()
 }
-

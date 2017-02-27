@@ -15,4 +15,3 @@ load_functions(func_dir = "functions")
 \examples{
 load_functions(func_dir = 'functions')
 }
-

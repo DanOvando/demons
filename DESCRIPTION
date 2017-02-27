@@ -1,0 +1,11 @@
+Package: demons
+Title: Helper Demons for Scientific Coding
+Version: 0.0.0.9000
+Authors@R: person("Dan", "Ovando", email = "dovando@bren.ucsb.edy", role = c("aut", "cre"))
+Description: A bunch of helper functions for managing projects.
+Depends: R (>= 3.3.2)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: tidyverse
+RoxygenNote: 6.0.1

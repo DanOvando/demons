@@ -6,7 +6,7 @@
 with the appropriate variable name, such as '_plot'}
 \usage{
 save_plots(plot_dir = ".", extension = ".pdf", plot_tag = "_plot",
-  fig_width = 6, fig_height = 4)
+  fig_width = 6, fig_height = 4, dev = cairo_pdf)
 }
 \arguments{
 \item{plot_dir}{the directory to save plots}
@@ -29,4 +29,3 @@ with the appropriate variable name, such as '_plot'
 \examples{
 plot_dir(plot_dir = 'results/')
 }
-

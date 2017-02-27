@@ -29,4 +29,3 @@ with the appropriate variable name, such as '_plot'
 \examples{
 save_tmaps(plot_dir = 'results/')
 }
-
