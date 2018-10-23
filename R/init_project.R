@@ -15,11 +15,15 @@ init_project <- function(use = 'science'){
 
   dir.create('data')
 
+  dir.create('processed_data')
+
   dir.create('documents')
 
   dir.create('results')
 
   dir.create('scripts')
+
+  dir.create('src')
 
   dir.create('functions')
 

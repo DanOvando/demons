@@ -17,7 +17,8 @@ spread_factors <- function(data, drop_one = T) {
 
     data <- data %>%
       mutate(dummy = 1, index = 1:nrow(.)) %>%
-      spread_(var, 'dummy', fill = 0, sep = 'dummy') %>% {
+      spread_(var, 'dummy', fill = 0, sep = 'dummy') %>%
+      arrange(index) %>% {
         if (drop_one == T) {
           dplyr::select(.,-index,-contains('dummy')[1]) #drop the first dummy
         } else{
